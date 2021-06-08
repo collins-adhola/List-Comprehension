@@ -63,3 +63,50 @@ for i in range(4):
     res_row.append(row[i])
   res.append(res_row)
 print(res)     
+
+
+
+
+#Brad lists /Udemy
+# A List is a collection which is ordered and changeable. Allows duplicate members.
+
+#Create list
+numbers = [1,2,3,4,5]
+print(numbers)
+
+# Using constructor
+numbers = list((1,2,3,4,5))
+fruits = ['Apples', 'Oragnges', 'Grapes', 'Pears']
+print (numbers)
+print (fruits[2])
+
+#Get len
+print(len(fruits))
+#Append to list  / push in javascript
+fruits.append('Mango')
+print (fruits)
+
+#Remove from list
+fruits.remove('Grapes')
+print (fruits)
+
+# Insert into position
+fruits.insert(2, 'Strawberies')
+
+#Remove from specific position
+fruits.pop(3)
+print(fruits)
+
+# Reverse
+fruits.reverse()
+print (fruits)
+
+#Sort list
+fruits.sort()
+print (fruits)
+
+#Reverse sort
+fruits.sort(reverse=True)   #sorted alphabetically but the other way.
+
+
+
