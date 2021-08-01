@@ -109,4 +109,10 @@ print (fruits)
 fruits.sort(reverse=True)   #sorted alphabetically but the other way.
 
 
+# add 2 lists
 
+fruits01 = ['Apples', 'Oragnges', 'Grapes', 'Pears']
+fruits02 = ['Maize', 'Cassava', 'Potato', 'Pears']
+
+fruits01.extend(fruits02)
+print(fruits01)
